@@ -4,4 +4,19 @@
   <artifactId>maven-hello-world</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <name>maven-hello-world</name>
+  <description>This is a project used to demostrate maven principles</description>
+  <url>https://github.com/raushan606/maven-advance-tutorials</url>
+  <packaging>war</packaging>
+  <developers>
+	  <developer>
+		  <name>Raushan Kumar</name>
+		  <timezone>IST</timezone>
+	  </developer>
+  </developers>
+  
+  <build>
+	  <sourceDirectory>src/main/java</sourceDirectory>
+	  <directory>myTarget</directory>
+  </build>
+  
 </project>
